@@ -5,6 +5,7 @@
   "main": "./src/index.ts",
   "scripts": {
     "bundle":"webpack",
+    "serve": "webpack-dev-server --mode development --open",
     "tsc":"tsc"
 
   },
